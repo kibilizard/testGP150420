@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test</title>
+    <script type="text/javascript" src="dist/app.js"></script>
+    <script type="text/javascript" src="dist/1.app.js"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="dist/styles.css">
+</head>
+
+<body>
+    <div class="lorem">
+        <button class="activate-button base-button">Показать настройки фильтра отображения</button>
+    </div>
+    <div class="fixed-overlay fixed-overlay__modal">
+        <div class="popup modal_container">
+            <div class="popup__header">
+                <div class="popup__title title header__left-col">Настройки фильтра отображения событий</div>
+                <div class="popup__close header__right-col">
+                    <span class="popup__close_btn"></span>
+                    <span class="popup__close_text">Скрыть</span>
+                </div>
+            </div>
+            <div class="popup__content">
+                <div class="form">
+                    <div class="row-block form-group">
+                        <div class="title">Типы событий</div>
+                        <div class="form-group__items">
+                            <div class="form-group_item form-group_item_m">
+                                <div class=" form-group__item_lighted">
+                                    <div class="checkbox__label item-lighted__label">
+                                        <label class="custom-checkbox-label">
+                                            <input type="checkbox" class="checkbox__input">
+                                            Разъяснение документации
+                                        </label>
+                                    </div>
+                                    <div class="quant-info">
+                                        <div class="quant-info__item quant-info__item_right ">0</div>
+                                        <div class="quant-info__item quant-info__item_left ">10</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group_item form-group_item_m">
+                                <div class=" form-group__item_lighted">
+                                    <div class="checkbox__label item-lighted__label">
+                                        <label class="custom-checkbox-label">
+                                            <input type="checkbox" class="checkbox__input"> 
+                                            Протоколы
+                                        </label>
+                                    </div>
+                                    <div class="quant-info">
+                                        <div class="quant-info__item quant-info__item_right  quant-info__item_red">19</div>
+                                        <div class="quant-info__item  quant-info__item_left ">82</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group_item form-group_item_m">
+                                <div class=" form-group__item_lighted">
+                                    <div class="checkbox__label item-lighted__label">
+                                        <label class="custom-checkbox-label">
+                                            <input type="checkbox" class="checkbox__input">
+                                            Торги
+                                        </label>
+                                    </div>
+                                    <div class="quant-info">
+                                        <div class="quant-info__item quant-info__item_right  quant-info__item_red">64</div>
+                                        <div class="quant-info__item quant-info__item_left ">23</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group_item form-group_item_m">
+
+                                <div class=" form-group__item_lighted">
+                                    <div class="checkbox__label item-lighted__label">
+                                        <label class="custom-checkbox-label">
+                                            <input type="checkbox" class="checkbox__input">
+                                            Разъяснение результатов
+                                        </label>
+                                    </div>
+                                    <div class="quant-info">
+                                        <div class="quant-info__item quant-info__item_right  quant-info__item_red">150</div>
+                                        <div class="quant-info__item quant-info__item_left ">12</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group_item form-group_item_m">
+                                <div class=" form-group__item_lighted">
+                                    <div class="checkbox__label item-lighted__label">
+                                        <label class="custom-checkbox-label">
+                                            <input type="checkbox" class="checkbox__input">
+                                            Контракты
+                                        </label>
+                                    </div>
+                                    <div class="quant-info">
+                                        <div class="quant-info__item quant-info__item_right  quant-info__item_red">17</div>
+                                        <div class="quant-info__item quant-info__item_left ">46</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group_item form-group_item_m">
+                                <div class=" form-group__item_lighted">
+                                    <div class="checkbox__label item-lighted__label">
+                                        <label class="custom-checkbox-label">
+                                            <input type="checkbox" class="checkbox__input">
+                                            Продление сроков
+                                        </label>
+                                    </div>
+                                    <div class="quant-info">
+                                        <div class="quant-info__item quant-info__item_right ">0</div>
+                                        <div class="quant-info__item quant-info__item_left ">24</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-block form-group">
+                        <div class="title">События по закупкам</div>
+                        <div class="form-group__items">
+                            <div class="form-group_item form-group_item_s">
+                                <div class="checkbox__label">
+                                    <label class="custom-checkbox-label">
+                                        <input type="checkbox" class="checkbox__input">
+                                        Аукцион
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group_item form-group_item_s">
+                                <div class="checkbox__label">
+                                    <label class="custom-checkbox-label">
+                                        <input type="checkbox" class="checkbox__input">
+                                        Конкурс
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group_item form-group_item_s">
+                                <div class="checkbox__label">
+                                    <label class="custom-checkbox-label">
+                                        <input type="checkbox" class="checkbox__input">
+                                        Запрос котировок
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group_item form-group_item_s">
+                                <div class="checkbox__label">
+                                    <label class="custom-checkbox-label">
+                                        <input type="checkbox" class="checkbox__input">
+                                        Двухэтапный конкурс
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group_item form-group_item_s">
+                                <div class="checkbox__label">
+                                    <label class="custom-checkbox-label">
+                                        <input type="checkbox" class="checkbox__input">
+                                        Аукцион с проектной документацией
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group_item form-group_item_s">
+                                <div class="checkbox__label">
+                                    <label class="custom-checkbox-label">
+                                        <input type="checkbox" class="checkbox__input">
+                                        Конкурс с ограниченным участием
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group_item form-group_item_s">
+                                <div class="checkbox__label">
+                                    <label class="custom-checkbox-label">
+                                        <input type="checkbox" class="checkbox__input">
+                                        Запрос предложений
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" form-group__items">
+                        <div class="footer__left-col">
+                            <div class="search-filter">
+                                <input class="search-filter__input" type="text" placeholder="Ответственные сотрудники">
+                                <div class="search-filter__suggestions-wrapper">
+                                    <div class="search-filter__suggestions search-filter__suggestions_hidden">
+                                        <div class="search-filter__no-results">Ничего не найдено!</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__right-col">
+                            <button type="submit" class="form__submit base-button">Сохранить фильтр</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

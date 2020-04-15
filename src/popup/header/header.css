@@ -1,0 +1,12 @@
+.popup__header {
+    padding-bottom: 0.6em;
+    overflow: auto;
+}
+
+.header__left-col {
+    float: left;
+}
+
+.header__right-col {
+    float: right;
+}

@@ -1,0 +1,13 @@
+.base-button {
+    border: 2px solid #2d6da5;
+    background-color: #2d6da5;
+    color: #fff;
+    padding: 0.6em;
+    border-radius: 0.5em;
+    outline: none;
+}
+
+.base-button:hover {
+    border: 2px solid #95cbf7;
+    border-radius: 0.5em;
+}
