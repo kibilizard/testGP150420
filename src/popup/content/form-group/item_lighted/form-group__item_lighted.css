@@ -36,6 +36,7 @@
 @media (max-width: 768px) {
     .form-group__item_lighted {
         min-width: 0px;
+        min-width: 280px;
     }
 }
 

@@ -55,7 +55,7 @@
 
 @media (max-width: 550px) {
     .search-filter__suggestions {
-        position: static;
+        position: relative;
     }
     .search-filter {
         width: inherit;
